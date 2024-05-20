@@ -19,7 +19,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🤖 My Name :</b> <a href='https://t.me/Anime_all_file_store_bot'>File Sharing Bot</a> \n<b>📝 Language :</b> <a href='https://python.org'>Python 3</a> \n<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram {__version__}</a> \n<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a> \n<b>📢 Channel :</b> <a href='https://t.me/THECIDANIME'>THECIDANIME</a> \n<b>🧑‍💻 Developer :</b> <a href='tg://user?id={OWNER_ID}'>THECIDANIME</a>",
+            text = f"<b>🤖 ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Anime_all_file_store_bot'>ᵀᴴᴱ ᶜᴵᴰ ᴬᴺᴵᴹᴱ</a> \n<b>📝 ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>ᴾʸᵗʰᵒⁿ 3</a> \n<b>📚 ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>ᴾʸʳᵒᵍʳᵃᵐ {__version__}</a> \n<b>🚀 ꜱᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>ᴴᵉʳᵒᵏᵘ</a> \n<b>📢 ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/THECIDANIME'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a> \n<b>🧑‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='tg://user?id={OWNER_ID}'>ᵀᴴᴱᶜᴵᴰᴬᴺᴵᴹᴱ</a>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
